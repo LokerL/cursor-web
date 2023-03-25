@@ -1,15 +1,14 @@
-<template>
-  <div>
+<template>  <div>
     <button
       data-text="Awesome"
       class="button"
       @click="showDonate = !showDonate"
     >
       <span class="actual-text"
-        >&nbsp;{{ showDonate ? "Close" : "Donate" }}&nbsp;</span
+        >&nbsp;{{ showDonate ? "Close" : "Chat" }}&nbsp;</span
       >
       <span class="hover-text" aria-hidden="true"
-        >&nbsp;{{ showDonate ? "Close" : "Donate" }}&nbsp;</span
+        >&nbsp;{{ showDonate ? "Close" : "Chat" }}&nbsp;</span
       >
     </button>
     <span class="info" v-if="showDonate">再次点击关闭显示</span>
